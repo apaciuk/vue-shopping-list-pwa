@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "a progressive web app that you can use to list items to buy and also store the list and total item cost",
   "scripts": {
-      "start": "hoodie"
+      "start": "hoodie",
+      "build": "babel public/js/src --out-dir public/js/transpiled"
   },
   "author": "Paul Anthony McGowan",
   "license": "MIT",
