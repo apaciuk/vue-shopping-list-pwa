@@ -1,5 +1,19 @@
-import * as shared from "shared.js";
-function getIndexTemplate() {
+import "node_modules/vue/dist/vue.js
+import commonjs from 'rollup-plugin-commonjs' 
+import VuePlugin from 'rollup-plugin-vue'
+export default {
+  entry: 'main.js',
+  plugins: [
+    commonjs(),
+    VuePlugin(/* VuePluginOptions */)
+  ]
+}
+
+
+
+
+//Hoodie related samples
+/*function getIndexTemplate() {
   let template = document.querySelector("#item-row").innerHTML;
   return template;
 }

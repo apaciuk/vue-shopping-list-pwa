@@ -1,4 +1,5 @@
-//register dialog elements
+//Hoodie related samples
+/*register dialog elements
 let loginDialog = document.querySelector("#login-dialog");
 dialogPolyfill.registerDialog(loginDialog);
 let registerDialog = document.querySelector("#register-dialog");
